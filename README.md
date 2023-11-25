@@ -84,7 +84,7 @@ If you prefer a personalized bot, this section guides you on setting up your own
    - Launch your server using `python manage.py runserver`.
 
 7. **Webhook Setup**:
-   - Set a [webhook](https://core.telegram.org/bots/api#setwebhook) by using the Telegram API to point new messages to your local development server.
+   - Set a [webhook](https://core.telegram.org/bots/api#setwebhook) by using the [Local Bot API Server](https://github.com/tdlib/telegram-bot-api) to point new messages to your local development server.
 
 8. **Interact with Your Bot**:
    - Open Telegram and start a conversation with your newly created bot.
