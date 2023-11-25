@@ -64,7 +64,7 @@ If you prefer a personalized bot, this section guides you on setting up your own
 #### Step-by-Step Guide:
 
 1. **Clone the Repository**: 
-   - Use `git clone [<repository-url>](https://github.com/sazaktechs/hashgpt-telegrambot.git)` to clone the project repository to your local machine.
+   - Use `git clone https://github.com/sazaktechs/hashgpt-telegrambot.git` to clone the project repository to your local machine.
 
 2. **Set Up a Virtual Environment**: 
    - Navigate to the cloned directory.
@@ -75,7 +75,7 @@ If you prefer a personalized bot, this section guides you on setting up your own
    - Inside the activated virtual environment, install the necessary packages with `pip install -r requirements.txt`.
 
 4. **Telegram Bot Creation**:
-   - Create a new Telegram [<bot>](https://core.telegram.org/bots/features#botfather) via BotFather and obtain the associated token.
+   - Create a new Telegram [bot](https://core.telegram.org/bots/features#botfather) via BotFather and obtain the associated token.
 
 5. **Environment Variables**: 
    - Add your obtained Telegram Bot Token and OpenAI API key to a `.env` file.
@@ -84,7 +84,7 @@ If you prefer a personalized bot, this section guides you on setting up your own
    - Launch your server using `python manage.py runserver`.
 
 7. **Webhook Setup**:
-   - Set a [<webhook>](https://core.telegram.org/bots/api#setwebhook) by using the Telegram API to point new messages to your local development server.
+   - Set a [webhook](https://core.telegram.org/bots/api#setwebhook) by using the Telegram API to point new messages to your local development server.
 
 8. **Interact with Your Bot**:
    - Open Telegram and start a conversation with your newly created bot.
