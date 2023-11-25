@@ -3,6 +3,7 @@
 - [Features](#features)
 - [Installation](#installation)
 - [Usage](#usage)
+- [Creating Your Own Bot](#creating-your-own-bot)
 - [Documentation](#documentation)
 - [Contributing](#contributing)
 - [License](#license)
@@ -51,7 +52,7 @@ By incorporating these new capabilities, our chatbot becomes even more versatile
  
 4. The standard configuration employs the GPT-3.5 model. If you wish to activate the GPT-4 model, please use the command `/gpt4 gpt-4`. Conversely, to revert to the GPT-3.5 model, the appropriate command is `/gpt3 gpt-3.5`.
 
-## Creating Your Own Bot with This Repository
+## Creating Your Own Bot
 
 If you prefer a personalized bot, this section guides you on setting up your own chatbot on a local machine using this Django repository.
 
