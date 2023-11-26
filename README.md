@@ -78,12 +78,13 @@ If you prefer a personalized bot, this section guides you on setting up your own
 5. **Environment Variables**: 
    - To configure the project with your unique credentials, create a `.env` file in the root directory of the project. In this file, you will specify your Telegram Bot Token and OpenAI API key. Here is an example of what the contents of your `.env` file should look like:
 
-```
-TOKEN=<your_telegram_bot_token>
-API_KEY=<your_openai_api_key>
-```
+    ```
+    TOKEN=<your_telegram_bot_token>
+    API_KEY=<your_openai_api_key>
+    ```
 
-Replace `<your_telegram_bot_token>` with the token you obtained from the BotFather when you created your Telegram bot, and `<your_openai_api_key>` with your actual API key from OpenAI.
+   - Replace `<your_telegram_bot_token>` with the token you obtained from the BotFather when you created your Telegram bot, and `<your_openai_api_key>` with your 
+   actual API key from OpenAI.
 
 6. **Start the Django Development Server**:
    - Launch your server using `python manage.py runserver`.
