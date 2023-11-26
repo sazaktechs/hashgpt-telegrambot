@@ -4,7 +4,6 @@
 - [Installation](#installation)
 - [Usage](#usage)
 - [Creating Your Own Bot](#creating-your-own-bot)
-- [Documentation](#documentation)
 - [Contributing](#contributing)
 - [License](#license)
 - [Contact Information](#contact-information)
