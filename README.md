@@ -9,7 +9,7 @@
 
 ## Introduction
 
-This project is a chatbot that utilizes OpenAI's GPT-3.5 and GPT-4 APIs for intelligent conversations. You can use your own API key and access additional features via Telegram commands. Get started with this powerful chatbot for enhanced language processing.
+This Telegram bot integrates user-provided OpenAI GPT-3.5 and GPT-4 API keys, offering enhanced conversational capabilities and additional features through specialized Telegram commands, leveraging advanced language models for an enriched chatbot experience.
 
 ## Features
 
