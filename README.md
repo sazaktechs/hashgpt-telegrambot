@@ -1,4 +1,3 @@
-```
 # Table of Contents
 - [Introduction](#introduction)
 - [Features](#features)
@@ -7,7 +6,7 @@
 - [Creating Your Own Bot](#creating-your-own-bot)
 - [Contributing](#contributing)
 - [License](#license)
-```
+
 ## Introduction
 
 This project is a chatbot that utilizes OpenAI's GPT-3.5 and GPT-4 APIs for intelligent conversations. You can use your own API key and access additional features via Telegram commands. Get started with this powerful chatbot for enhanced language processing.
