@@ -34,7 +34,7 @@ By incorporating these new capabilities, our chatbot becomes even more versatile
 
 1. Open the Telegram app on your device.
 
-2. Search for the HashGPT bot by entering its username `hashgpt4301_bot`. Select the bot from the search results.
+2. Search for the HashGPT bot by entering its username `@HashGPTBot`. Select the bot from the search results.
 
 3. Open a chat with the bot by clicking on its name.
 
