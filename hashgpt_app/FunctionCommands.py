@@ -116,7 +116,7 @@ class FunctionCommands:
             
         
         elif(type == 'document'):
-            print("test2")
+            
             url = f"https://api.telegram.org/bot" + TOKEN + "/getFile"
             payload = {
                 'file_id': value['file_id'],
@@ -126,7 +126,7 @@ class FunctionCommands:
             file_path = response['result']['file_path']
             url = f"https://api.telegram.org/file/bot{TOKEN}/{file_path}"
             response = requests.get(url)
-            print("test2")
+            
             if(".pdf" in url):
                 on_fly_mem_obj = io.BytesIO(response.content)
                 pdf_file = PdfReader(on_fly_mem_obj)
@@ -138,21 +138,21 @@ class FunctionCommands:
                 response = text
             else:
                 response = response.content.decode('UTF-8')
-            print("test3")
+            
             text = caption + ' """' + response + '"""'
-            print(text)
+            
             num_tokens = self.count_tokens.num_tokens_from_messages(
                 [{"text": str(text)}])
-            print(num_tokens)
-            print("test4")
+            
+            
             if (num_tokens > 16000):
                 limit = 16000
                 text_list = text.split(".")
-                print("over 16000 : " + str(num_tokens))
+                
                 num = int(num_tokens / 16000) + 1
-                print("num " + str(num))
+                
                 text = r""
-                print("len(transcript) :" + str(len(text_list)))
+                
                 counter = 0
                 for i in text_list:
                     if (counter < 10):
@@ -166,7 +166,7 @@ class FunctionCommands:
                             counter = 0
                 num_tokens = self.count_tokens.num_tokens_from_messages(
                 [{"text": str(text)}])
-                print("num tokens= " + str(num_tokens))
+                
 
         elif(type == 'audio' or type == 'voice'):
             
@@ -192,10 +192,10 @@ class FunctionCommands:
             text = str(transcript.text)
             try:
                 os.remove("./" + str(file_name))
-                print(f"File '{str(file_name)}' deleted successfully.")
+                
             except FileNotFoundError:
-                print(f"File '{str(file_name)}' does not exist.")
+                
             except PermissionError:
-                print(f"Unable to delete file '{str(file_name)}'. Permission denied.")
+                
 
         return [text, is_audio, chat_id]
