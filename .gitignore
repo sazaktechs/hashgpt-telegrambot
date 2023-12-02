@@ -3,11 +3,6 @@ myvenv/
 .vscode/
 db.sqlite3
 
-# Elastic Beanstalk Files
-.elasticbeanstalk/*
-!.elasticbeanstalk/*.cfg.yml
-!.elasticbeanstalk/*.global.yml
-
 telegrambot/__pycache__/*
 hashgpt_app/__pycache__/*
 hashgpt_app/__pycache__/*
