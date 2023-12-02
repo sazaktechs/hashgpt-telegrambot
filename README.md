@@ -6,7 +6,9 @@
 - [Creating Your Own Bot](#creating-your-own-bot)
 - [Contributing](#contributing)
 - [License](#license)
-
+<div>
+  <img src="https://github.com/sazaktechs/hashgpt-bot/assets/108865312/20e2ccca-6b89-46ee-9b0d-e2096666f759" width="200">
+</div>
 ## Introduction
 
 This Telegram bot integrates user-provided OpenAI GPT-3.5 and GPT-4 API keys, offering enhanced conversational capabilities and additional features through specialized Telegram commands, leveraging advanced language models for an enriched chatbot experience.
