@@ -42,7 +42,7 @@ class FunctionCaller:
         url = word_list[1]
 
         def get_content(url):
-            """Get the current weather in a given location"""
+            
             try:
                 response = requests.get(url)
                 webpage_content = response.content
