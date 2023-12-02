@@ -97,7 +97,7 @@ class FunctionCaller:
             return json.dumps(url_info)
         
         def get_google_results(url):
-            """Get the current weather in a given location"""
+            
             try:
                 response = requests.get(url)
                 webpage_content = response.content
