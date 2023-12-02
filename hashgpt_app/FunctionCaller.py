@@ -367,7 +367,7 @@ class FunctionCaller:
             functions = [
                 {
                     "name": "get_image_prompt",
-                    "description": "Get the prompt for the client.DALL·E image",
+                    "description": "Get the prompt from the client for DALL·E image",
                     "parameters": {
                         "type": "object",
                         "properties": {
