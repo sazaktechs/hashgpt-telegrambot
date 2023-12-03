@@ -8,7 +8,7 @@
 - [License](#license)
 
 <div>
-  <img src="https://github.com/sazaktechs/hashgpt-bot/assets/108865312/20e2ccca-6b89-46ee-9b0d-e2096666f759" width="200">
+  <img src="logo.png" width="200">
 </div>
 
 ## Introduction
