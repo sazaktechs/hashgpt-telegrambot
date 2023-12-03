@@ -8,7 +8,7 @@
 - [License](#license)
 
 <div>
-  <img src="logo.png" width="200">
+  <img src="assets/logo.png" width="200">
 </div>
 
 ## Introduction
@@ -20,10 +20,10 @@ This Telegram bot integrates user-provided OpenAI GPT-3.5 and GPT-4 API keys, of
 Utilize your own API key for a personalized and seamless integration experience with our chatbot. It comes packed with a variety of functionalities that enhance your interactions. You can activate specific features directly within Telegram using these commands:
 
 <div align="center">
-  <video src="https://github.com/sazaktechs/hashgpt-bot/assets/108865312/b4216f37-134e-472e-bb1a-4e080d7eff20" width="100px" height="50px"/>
+  <video src="assets/read.mp4" width="100px" height="50px"/>
 </div>
 <div align="center">
-  <video src="https://github.com/sazaktechs/hashgpt-bot/assets/108865312/7eb6c925-2cbf-4c0a-a03b-b7e0475a0e37" width="100px" height="50px"/>
+  <video src="assets/youtube.mp4" width="100px" height="50px"/>
 </div>
 
     /read - Extracts and reads the content of the provided URL, delivering the main information straight to your chat.
