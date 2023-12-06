@@ -20,7 +20,7 @@ This Telegram bot integrates user-provided OpenAI GPT-3.5 and GPT-4 API keys, of
 Utilize your own API key for a personalized and seamless integration experience with our chatbot. It comes packed with a variety of functionalities that enhance your interactions. You can activate specific features directly within Telegram using these commands:
 
 <div align="center">
-  <img src="https://github.com/sazaktechs/hashgpt-telegrambot/assets/108865312/6307f028-17fc-4e3d-b53a-f3c6b9f93200" width="200" alt="GIF Image">
+  <img src="https://github.com/sazaktechs/hashgpt-telegrambot/assets/108865312/0912b787-953f-4cb9-be8a-f635d1d0c324" width="200" alt="GIF Image">
 </div>
 
     /read - Extracts and reads the content of the provided URL, delivering the main information straight to your chat.
